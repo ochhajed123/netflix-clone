@@ -1,0 +1,23 @@
+## create a new repository on the command line
+
+echo "# netflix-clone" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ochhajed123/netflix-clone.git
+git push -u origin main
+
+## push an existing repository from the command line
+git remote add origin https://github.com/ochhajed123/netflix-clone.git
+git branch -M main
+git push -u origin main
+
+To https://github.com/ochhajed123/netflix-clone.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+to set your user name and email address.
+$ git config --global user.name "ochhajed123"
+$ git config --global user.email "oshchhajed@gmail.com"
+pwd - Ogre143@123890
